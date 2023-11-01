@@ -39,7 +39,7 @@ export default class Chat {
       this.id = response.user.id;
       this.name = response.user.name;
       form.formElement.remove();
-      this.api.websocket = new WebSocket('ws://chat-1xfl.onrender.com/ws');
+      this.api.websocket = new WebSocket('wss://chat-1xfl.onrender.com/ws');
       this.setChat();
       this.registerEvents();
     };
