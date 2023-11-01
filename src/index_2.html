@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Chat</title>
+</head>
+<body>
+	<div class="widget" id="root">
+    <div class="header">
+      <ul class="header_btns">
+        <li class="header_btn"></li>
+        <li class="header_btn"></li>
+        <li class="header_btn"></li>
+      </ul>
+    </div>
+  <div class="main_area">
+    <div class="windows">
+      <div class="participants window">
+        <ul class="part_list">
+          <li class="user">
+            <span class="avatar"></span>
+            <text class="username">Alexandra</text>
+          </li>
+          <li class="user">
+            <span class="avatar"></span>
+            <text class="username">Petr</text>
+          </li>
+          <li class="user">
+            <span class="avatar"></span>
+            <text class="username">Ivan</text>
+          </li>
+        </ul>
+      </div>
+      <div class="chat window">
+        <ul class="messages">
+          <li class="message">
+            <text class="msg_info"></text>
+            <text class="text"></text>
+          </li>
+        </ul>
+        <input class="input window" placeholder="Type your message here"></input>
+      </div>
+    </div>
+    <div class="form">
+      <h1 class="form_name">Выберите псевдоним</h1>
+        <form class="form_group" ">
+          <textarea class="name_input"></textarea>
+          <button type=submit class="confirm">Продолжить</button>
+        </form>
+    </div>
+  </div>
+</body>
+</html>
